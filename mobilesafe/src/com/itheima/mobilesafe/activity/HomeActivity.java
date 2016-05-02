@@ -57,6 +57,10 @@ public class HomeActivity extends Activity {
 				case 0:
 					showPasswordDialog();
 					break;
+				case 1:
+					startActivity(new Intent(HomeActivity.this, BlackNumberActivity.class));
+					
+					break;
 				case 7:
 					startActivity(new Intent(HomeActivity.this,
 							AToolsActivity.class));

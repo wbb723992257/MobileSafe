@@ -56,7 +56,7 @@ public class AddressService extends Service {
 		receiver = new OutCallReceiver();
 
 		IntentFilter filter = new IntentFilter(Intent.ACTION_NEW_OUTGOING_CALL);
-		registerReceiver(receiver, filter);// 动�?注册广播
+		registerReceiver(receiver, filter);
 	}
 
 	class MyListener extends PhoneStateListener {
